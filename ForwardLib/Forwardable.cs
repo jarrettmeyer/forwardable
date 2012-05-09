@@ -6,13 +6,18 @@ namespace ForwardLib
     public class Forwardable<T> : DynamicObject
         where T : class
     {
-        protected readonly dynamic instance;
+        private readonly dynamic instance;
 
         protected Forwardable(dynamic instance)
         {
             if (instance == null)
                 throw new ArgumentNullException("instance");
             this.instance = instance;
+        }
+
+        public virtual T ForwardedObject
+        {
+            get { return instance; }
         }
 
         public virtual Type ForwardedType

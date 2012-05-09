@@ -51,11 +51,7 @@ namespace ForwardLib.Tests
 
         public string CastedIntValue
         {
-            get
-            {
-                dynamic obj = this;
-                return obj.IntValue.ToString();
-            }
+            get { return ForwardedObject.IntValue.ToString(); }
         }
     }
 }
