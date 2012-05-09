@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForwardLib", "ForwardLib\ForwardLib.csproj", "{68B4FF51-9088-44FA-B9BD-4A98984DD5D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForwardLib.Tests", "ForwardLib.Tests\ForwardLib.Tests.csproj", "{5985D5E2-4F23-43C9-A4E9-E37B3A26134A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B4FF51-9088-44FA-B9BD-4A98984DD5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B4FF51-9088-44FA-B9BD-4A98984DD5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B4FF51-9088-44FA-B9BD-4A98984DD5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B4FF51-9088-44FA-B9BD-4A98984DD5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5985D5E2-4F23-43C9-A4E9-E37B3A26134A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5985D5E2-4F23-43C9-A4E9-E37B3A26134A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5985D5E2-4F23-43C9-A4E9-E37B3A26134A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5985D5E2-4F23-43C9-A4E9-E37B3A26134A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
